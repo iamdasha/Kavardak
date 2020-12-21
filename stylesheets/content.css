@@ -1,0 +1,544 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@800&family=Montserrat&display=swap');
+@import "reset.css";
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  /* height: 2341px; */
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+
+
+/* body::before {
+  content: "";
+  position: absolute;
+  background-image: url(../images/bg.png);
+  height: 2341px;
+  width: 100%;
+  opacity: 20%;
+  background-repeat: no-repeat;
+} */
+
+.wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  /* height: 2341px; */
+  padding: 1.5% 2%;
+  padding-bottom: 138%;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.el_1 {
+  position: absolute;
+  width: 45.5%;
+  height: 12%;
+  border: 0.25vw solid black;
+  animation: r 2s linear infinite;
+}
+
+.logo {
+  position: absolute;
+  width: 45.5%;
+}
+
+.el_2 {
+  position: absolute;
+  width: 17%;
+  left: 48.5%;
+}
+
+.el_3 {
+  position: absolute;
+  width: 17%;
+  height: 5%;
+  top: 8%;
+  left: 48.5%;
+  border: 0.25vw solid black;
+}
+
+.el_4 {
+  position: absolute;
+  width: 14%;
+  left: 66.5%;
+}
+
+.el_4color {
+  position: absolute;
+  width: 14%;
+  left: 66.5%;
+}
+
+.el_5 {
+  position: absolute;
+  width: 32%;
+  right: 2%;
+}
+
+.el_6 {
+  position: absolute;
+  width: 31%;
+  height: 2%;
+  top: 11%;
+  right: 2%;
+  border: 0.25vw solid black;
+}
+
+.el_7 {
+  position: absolute;
+  width: 7%;
+  height: 5%;
+  right: 2%;
+  border-radius: 50%;
+  border: 0.2vw solid black;
+  z-index: 10;
+}
+
+.el_7color {
+  position: absolute;
+  width: 7%;
+  height: 5%;
+  right: 3%;
+  border-radius: 50%;
+  background-color: #34A3B2;
+  z-index: 1;
+}
+
+.el_8 {
+  position: absolute;
+  width: 21%;
+  height: 15%;
+  top: 14%;
+  border-radius: 50%;
+  border: 0.25vw solid black;
+  z-index: 10;
+}
+
+.el_8 > p {
+  font-family: "Montserrat", sans-serif;
+  position: absolute;
+  top: 36%;
+  left: 16%;
+  font-size: 6vw;
+
+}
+
+.el_8color {
+  position: absolute;
+  width: 21%;
+  height: 15%;
+  top: 15%;
+  border-radius: 50%;
+  background-color: #F44719;
+  z-index: 1;
+}
+
+.el_9 {
+  position: absolute;
+  width: 16%;
+  height: 14%;
+  top: 14%;
+  left: 24%;
+  border: 0.25vw solid black;
+}
+
+.el_10 {
+  position: absolute;
+  width: 56%;
+  height: 14%;
+  top: 14%;
+  right: 2%;
+  border: 0.25vw solid black;
+}
+
+.el_10 > p {
+  font-family: "Almarai", sans-serif;
+  text-align: center;
+  position: absolute;
+  top: -2%;
+  left: 2%;
+  font-size: 20vw;
+  font-weight: bold;
+}
+
+.el_11 {
+  position: absolute;
+  width: 2%;
+  height: 9%;
+  top: 28%;
+  border: 0.25vw solid black;
+}
+
+.el_12 {
+  position: absolute;
+  width: 17%;
+  top: 30%;
+}
+
+.el_13 {
+  position: absolute;
+  width: 8%;
+  height: 5.7%;
+  top: 30%;
+  left: 14%;
+  border-radius: 50%;
+  border: 0.25vw solid black;
+}
+
+.el_13color {
+  position: absolute;
+  width: 8%;
+  height: 5.7%;
+  top: 30%;
+  left: 14%;
+  border-radius: 50%;
+  border: 0.25vw solid black;
+  background-color: black;
+}
+
+.el_14 {
+  position: absolute;
+  width: 32%;
+  top: 29%;
+  left: 20%;
+}
+
+.el_15 {
+  position: absolute;
+  width: 45%;
+  height: 10%;
+  top: 29%;
+  right: 2%;
+  border: 0.25vw solid black;
+}
+
+.el_16 {
+  position: absolute;
+  width: 14%;
+  top: 43%;
+  z-index: 10;
+}
+
+.el_16color {
+  position: absolute;
+  width: 14%;
+  top: 42%;
+  z-index: 1;
+}
+
+.el_17 {
+  position: absolute;
+  width: 32%;
+  top: 42%;
+  z-index: 10;
+}
+
+.el_17color {
+  position: absolute;
+  width: 32%;
+  top: 42%;
+  z-index: 1;
+}
+
+.el_18 {
+  position: absolute;
+  width: 24%;
+  height: 1%;
+  top: 42%;
+  left: 21%;
+  border: 0.25vw solid black;
+}
+
+.el_19 {
+  position: absolute;
+  width: 10%;
+  height: 7%;
+  top: 44%;
+  left: 27%;
+  border-radius: 50%;
+  border: 0.25vw solid black;
+}
+
+.el_20 {
+  position: absolute;
+  width: 45%;
+  height: 32%;
+  top: 41%;
+  left: 35%;
+  border-radius: 50%;
+  border: 0.25vw solid black;
+  z-index: 10;
+}
+
+.el_20 > img {
+  position: absolute;
+  width: 94%;
+  top: -10%;
+  left: 3%;
+}
+
+.el_20color {
+  position: absolute;
+  width: 45%;
+  height: 32%;
+  top: 40%;
+  left: 36%;
+  border-radius: 50%;
+  background-color: #F44719;
+  z-index: 1;
+}
+
+.el_20, .el_20color {
+  animation: a 8s linear infinite;
+}
+
+.el_21 {
+  position: absolute;
+  width: 13%;
+  top: 40%;
+  right: 20%;
+}
+
+.el_22 {
+  position: absolute;
+  width: 7%;
+  height: 5%;
+  top: 68%;
+  right: 20%;
+  border-radius: 50%;
+  border: 0.25vw solid black;
+}
+
+.el_23 {
+  position: absolute;
+  width: 14%;
+  height: 33%;
+  top: 40%;
+  right: 5%;
+  border: 0.25vw solid black;
+}
+
+.el_24 {
+  position: absolute;
+  width: 1.5%;
+  height: 33%;
+  top: 40%;
+  right: 2%;
+  border: 0.25vw solid black;
+}
+
+.el_24color {
+  position: absolute;
+  width: 1.5%;
+  height: 33%;
+  top: 40%;
+  right: 2%;
+  background-color: black;
+  border: 0.25vw solid black;
+}
+
+.el_25 {
+  position: absolute;
+  height: 5%;
+  width: 6%;
+  top: 59%;
+  left: 19%;
+  border: 0.25vw solid black;
+}
+
+.el_26 {
+  position: absolute;
+  width: 21%;
+  top: 59%;
+  left: 26%;
+}
+
+.el_27 {
+  position: absolute;
+  width: 10%;
+  height: 7%;
+  top: 71%;
+  border-radius: 50%;
+  border: 0.25vw solid black;
+}
+
+.el_27color {
+  position: absolute;
+  width: 10%;
+  height: 7%;
+  top: 71%;
+  border-radius: 50%;
+  background-color: black;
+  border: 0.25vw solid black;
+}
+
+.el_28 {
+  position: absolute;
+  width: 22%;
+  top: 59%;
+  z-index: 10;
+}
+
+#sales {
+  position: absolute;
+  width: 47%;
+  left: 41%;
+}
+
+.el_28color {
+  position: absolute;
+  width: 22%;
+  top: 59%;
+  left: 3%;
+  z-index: 1;
+}
+
+.el_29 {
+  position: absolute;
+  width: 12%;
+  top: 83%;
+  left: 12%;
+}
+
+.el_30 {
+  position: absolute;
+  width: 27%;
+  height: 17%;
+  top: 74%;
+  left: 26%;
+  border: 0.25vw solid black;
+}
+
+.el_30color {
+  position: absolute;
+  width: 27%;
+  height: 17%;
+  top: 74%;
+  left: 26%;
+  border: 0.25vw solid black;
+  background-color: black;
+}
+
+.el_31 {
+  position: absolute;
+  width: 44%;
+  top: 74%;
+  right: 2%;
+}
+
+.el_32 {
+  position: absolute;
+  width: 15%;
+  height: 11%;
+  top: 79%;
+  right: 16%;
+  border-radius: 50%;
+  border: 0.25vw solid black;
+  z-index: 10;
+}
+
+.el_32color {
+  position: absolute;
+  width: 15%;
+  height: 11%;
+  top: 78%;
+  right: 14%;
+  border-radius: 50%;
+  background-color: #FF9045;
+  z-index: 1;
+}
+
+.el_33 {
+  position: absolute;
+  width: 11%;
+  height: 5%;
+  top: 77%;
+  right: 2%;
+  border: 0.25vw solid black;
+}
+
+.el_34 {
+  position: absolute;
+  width: 45%;
+  height: 7%;
+  top: 92%;
+  border: 0.25vw solid black;
+}
+
+.el_35 {
+  position: absolute;
+  width: 10%;
+  height: 7%;
+  top: 92%;
+  right: 42%;
+  border-radius: 50%;
+  border: 0.25vw solid black;
+  z-index: 10;
+}
+
+.el_35color {
+  position: absolute;
+  width: 10%;
+  height: 7%;
+  top: 92%;
+  right: 41%;
+  border-radius: 50%;
+  background-color: #FF9045;
+  z-index: 1;
+}
+
+.el_36 {
+  position: absolute;
+  width: 44%;
+  top: 83%;
+  right: 2%;
+  z-index: 10;
+}
+
+#find {
+  position: absolute;
+top: 2%;
+left: 4%;
+width: 92%;
+}
+
+.el_36color {
+  position: absolute;
+  width: 44%;
+  top: 84%;
+  right: 2%;
+  z-index: 1;
+}
+
+.el_37 {
+  position: absolute;
+  width: 9%;
+  top: 90%;
+  right: 2%;
+}
+
+@keyframes r {
+  0% {transform: rotate(0deg);}
+  100% {transform: rotate(360deg);}
+}
+
+@keyframes a {
+  0% {transform: none;}
+  25% {top: 10%; left: -15%;}
+  50% {top: -5%; left: 70%;}
+  75% {top: -10%; left: 10%;}
+  100% {top: -20%; left: 30%;}
+}
