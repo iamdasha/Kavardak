@@ -11,7 +11,7 @@ html, body {
   display: block;
   margin: 0 auto;
   position: relative;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 
@@ -28,6 +28,7 @@ html, body {
 .wrapper {
   position: relative;
   width: 100%;
+  overflow: hidden;
 }
 
 .container {
@@ -59,6 +60,7 @@ img {
   position: absolute;
   width: 17%;
   left: 48.5%;
+  animation: r2 4s linear infinite alternate;
 }
 
 .el_3 {
@@ -302,8 +304,9 @@ img {
 }
 
 .el_20, .el_20color {
-  animation: a 8s linear infinite;
+  animation: a 8s linear infinite alternate;
 }
+
 
 .el_21 {
   position: absolute;
@@ -530,15 +533,21 @@ width: 92%;
   right: 2%;
 }
 
-@keyframes r {
+/* @keyframes r {
   0% {transform: rotate(0deg);}
   100% {transform: rotate(360deg);}
 }
 
 @keyframes a {
-  0% {transform: none;}
+  0% {transform: rotate(0deg);}
+  15% {top: 41%; left: 35%;}
   25% {top: 10%; left: -15%;}
   50% {top: -5%; left: 70%;}
-  75% {top: -10%; left: 10%;}
-  100% {top: -20%; left: 30%;}
+  75% {top: 10%; left: -10%;}
+  100% {transform: rotate(360deg); top: 70%; left: 30%;}
 }
+
+@keyframes r2 {
+  0%
+
+} */
