@@ -1,0 +1,976 @@
+@media only screen and (min-width: 1680px) {
+  body {
+    height: 2341px;
+  }
+
+  .container {
+    padding-bottom: 138%;
+  }
+}
+@media only screen and (min-width: 1440px) and (max-width: 1679px){
+  body {
+    height: 2025px;
+  }
+
+  .container {
+    padding-bottom: 138%;
+  }
+}
+@media only screen and (min-width: 1366px) and (max-width: 1439px){
+  body {
+    height: 1925px;
+  }
+
+  .container {
+    padding-bottom: 138%;
+  }
+}
+@media only screen and (min-width: 1280px) and (max-width: 1365px) {
+  body {
+    height: 1796px;
+  }
+
+  .container {
+    padding-bottom: 138%;
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1279px){
+  body {
+    height: 1449px;
+  }
+
+  .container {
+    padding-bottom: 140%;
+  }
+
+  .el_2, .el_3, .el_6, .el_12, .el_14, .el_18, .el_16, .el_16color, .el_26 {
+    display: none;
+  }
+
+  .el_1 {
+    width: 47.5%;
+    height: 12.5%;
+  }
+
+  .logo {
+    position: absolute;
+    width: 45.5%;
+  }
+
+  .el_2 {
+    position: absolute;
+    width: 17%;
+    left: 48.5%;
+    animation: r2 4s linear infinite alternate;
+  }
+
+  .el_3 {
+    position: absolute;
+    width: 17%;
+    height: 5%;
+    top: 8%;
+    left: 48.5%;
+    border: 0.25vw solid black;
+  }
+
+  .el_4 {
+    position: absolute;
+    width: 23%;
+    left: 51.5%;
+  }
+
+  .el_4color {
+    width: 23%;
+    left: 51.5%;
+  }
+
+  .el_5 {
+    width: 40%;
+    top: 2%;
+  }
+
+  .el_6 {
+    position: absolute;
+    width: 31%;
+    height: 2%;
+    top: 11%;
+    right: 2%;
+    border: 0.25vw solid black;
+  }
+
+  .el_7 {
+    width: 10%;
+    height: 7%;
+  }
+
+  .el_7color {
+    width: 10%;
+    height: 7%;
+  }
+
+  .el_8 {
+    position: absolute;
+    width: 21%;
+    height: 15%;
+    top: 14%;
+    border-radius: 50%;
+    border: 0.25vw solid black;
+    z-index: 10;
+  }
+
+  .el_8 > p {
+    font-family: "Montserrat", sans-serif;
+    position: absolute;
+    top: 36%;
+    left: 16%;
+    font-size: 6vw;
+
+  }
+
+  .el_8color {
+    position: absolute;
+    width: 21%;
+    height: 15%;
+    top: 15%;
+    border-radius: 50%;
+    background-color: #F44719;
+    z-index: 1;
+  }
+
+  .el_9 {
+    position: absolute;
+    width: 16%;
+    height: 20%;
+    top: 14%;
+    left: 24%;
+    border: 0.25vw solid black;
+  }
+
+  .el_10 {
+    position: absolute;
+    width: 56%;
+    height: 14%;
+    top: 14%;
+    right: 2%;
+    border: 0.25vw solid black;
+  }
+
+  .el_10 > p {
+    font-family: "Almarai", sans-serif;
+    text-align: center;
+    position: absolute;
+    top: -2%;
+    left: 2%;
+    font-size: 20vw;
+    font-weight: bold;
+  }
+
+  .el_11 {
+    width: 3%;
+    height: 13%;
+    top: 30%;
+  }
+
+  .el_12 {
+    position: absolute;
+    width: 17%;
+    top: 30%;
+  }
+
+  .el_13 {
+    width: 9%;
+    height: 6.5%;
+    top: 29%;
+    left: 85%;
+  }
+
+  .el_13color {
+    width: 9%;
+    height: 6.5%;
+    top: 29%;
+    left: 85%;
+  }
+
+  .el_14 {
+    position: absolute;
+    width: 32%;
+    top: 29%;
+    left: 20%;
+  }
+
+  .el_15 {
+    width: 51%;
+    height: 3%;
+    top: 63%;
+    right: 6%;
+  }
+
+  .el_16 {
+    position: absolute;
+    width: 14%;
+    top: 43%;
+    z-index: 10;
+  }
+
+  .el_16color {
+    position: absolute;
+    width: 14%;
+    top: 42%;
+    z-index: 1;
+  }
+
+  .el_17 {
+    width: 26%;
+    top: 34%;
+  }
+
+  .el_17color {
+    width: 26%;
+    top: 34%;
+  }
+
+  .el_18 {
+    position: absolute;
+    width: 24%;
+    height: 1%;
+    top: 42%;
+    left: 21%;
+    border: 0.25vw solid black;
+  }
+
+  .el_19 {
+    width: 8%;
+    height: 5.5%;
+    top: 49%;
+    left: 21%;
+  }
+
+  .el_20 {
+    top: 29%;
+    left: 46%;
+  }
+
+  .el_20color {
+    top: 30%;
+    left: 46%;
+  }
+
+  .el_20, .el_20color {
+    animation: a 8s linear infinite alternate;
+    animation-delay: 2s;
+  }
+
+
+  .el_21 {
+    position: absolute;
+    width: 13%;
+    top: 40%;
+    right: 20%;
+  }
+
+  .el_22 {
+    width: 7%;
+    height: 5%;
+    top: 57%;
+    right: 47%;
+  }
+
+  .el_23 {
+    width: 15%;
+    height: 26%;
+    top: 35%;
+    left: 30%;
+  }
+
+  .el_24 {
+    width: 2.5%;
+    height: 37%;
+    top: 29%;
+  }
+
+  .el_24color {
+    width: 2.5%;
+    height: 37%;
+    top: 29%;
+  }
+
+  .el_25 {
+    position: absolute;
+    height: 5%;
+    width: 6%;
+    top: 59%;
+    left: 19%;
+    border: 0.25vw solid black;
+  }
+
+  .el_26 {
+    position: absolute;
+    width: 21%;
+    top: 59%;
+    left: 26%;
+  }
+
+  .el_27 {
+    width: 11%;
+    height: 8%;
+    top: 63%;
+  }
+
+  .el_27color {
+    width: 11%;
+    height: 8%;
+    top: 63%;
+  }
+
+  .el_28 {
+    width: 25%;
+    top: 49%;
+  }
+
+  .el_28color {
+    width: 25%;
+    top: 49%;
+    left: 3%;
+  }
+
+  .el_29 {
+    position: absolute;
+    width: 15%;
+    top: 76%;
+    left: 14%;
+  }
+
+  .el_30 {
+    width: 11%;
+    height: 23%;
+    top: 62%;
+    left: 30%;
+  }
+
+  .el_30color {
+    width: 11%;
+    height: 23%;
+    top: 62%;
+    left: 30%;
+  }
+
+  .el_31 {
+    position: absolute;
+    width: 56%;
+    top: 67%;
+  }
+
+  .el_32 {
+    width: 18%;
+    height: 12.5%;
+    top: 74%;
+    right: 21%;
+  }
+
+  .el_32color {
+    width: 18%;
+    height: 12.5%;
+    top: 73%;
+    right: 21%;
+  }
+
+  .el_33 {
+    width: 14%;
+    height: 6%;
+    top: 71%;
+  }
+
+  .el_34 {
+    width: 40%;
+    height: 13%;
+    top: 86%;
+  }
+
+  .el_35 {
+    width: 7%;
+    height: 5%;
+    top: 93%;
+    right: 49%;
+  }
+
+  .el_35color {
+    width: 7%;
+    height: 5%;
+    top: 93%;
+    right: 50%;
+  }
+
+  .el_36 {
+    width: 56%;
+    top: 79%;
+  }
+
+  .el_36color {
+    width: 56%;
+    top: 78%;
+  }
+
+  .el_37 {
+    width: 11%;
+    top: 88%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+  body {
+    height: 1796px;
+  }
+
+  .container {
+    padding-bottom: 233%;
+  }
+
+  .el_1 {
+    width: 63%;
+    height: 10%;
+    border: 0.3vw solid black;
+  }
+
+  .logo {
+    position: absolute;
+    width: 45.5%;
+  }
+
+  .el_2, .el_3, .el_6, .el_14, .el_15, .el_17, .el_17color, .el_18, .el_21, .el_23, .el_25, .el_26, .el_29  {
+    display: none;
+  }
+
+  .el_4 {
+    width: 29%;
+    left: 37.5%;
+    top: 50%;
+  }
+
+  .el_4color {
+    width: 29%;
+    left: 37.5%;
+    top: 50%;
+  }
+
+  .el_5 {
+    width: 54%;
+    top: 50%;
+  }
+
+  .el_7 {
+    width: 9%;
+    height: 4%;
+    right: 7%;
+    top: 24%;
+    border: 0.3vw solid black;
+  }
+
+  .el_7color {
+    width: 9%;
+    height: 4%;
+    right: 6%;
+    top: 24%;
+  }
+
+  .el_8 {
+    width: 23%;
+    height: 10%;
+    top: 1%;
+    left: 71%;
+    border: 0.3vw solid black;
+  }
+
+  .el_8color {
+    width: 23%;
+    height: 10%;
+    top: 1%;
+    left: 70%;
+  }
+
+  .el_9 {
+    width: 19%;
+    height: 9%;
+    top: 12%;
+    left: 2%;
+    border: 0.3vw solid black;
+  }
+
+  .el_10 {
+    width: 75%;
+    height: 11%;
+    top: 12.5%;
+    border: 0.3vw solid black;
+  }
+
+  .el_10 > p {
+    left: 1.5%;
+    font-size: 27vw;
+  }
+
+  .el_11 {
+    width: 4%;
+    height: 8%;
+    top: 22%;
+    border: 0.3vw solid black;
+  }
+
+  .el_12 {
+    width: 30%;
+    top: 22%;
+  }
+
+  .el_13 {
+    width: 12%;
+    height: 5.2%;
+    top: 24%;
+    left: 26%;
+    border: 0.3vw solid black;
+  }
+
+  .el_13color {
+    width: 12%;
+    height: 5.2%;
+    top: 24%;
+    left: 26%;
+  }
+
+  .el_16 {
+    width: 20%;
+    top: 61%;
+    left: 25%;
+  }
+
+  .el_16color {
+    width: 20%;
+    top: 60%;
+    left: 24%;
+  }
+
+  .el_19 {
+    width: 14%;
+    height: 6%;
+    top: 46%;
+    left: 2%;
+    border: 0.3vw solid black;
+  }
+
+  .el_20 {
+    width: 59%;
+    height: 25%;
+    top: 24%;
+    left: 32%;
+    border: 0.3vw solid black;
+  }
+
+  .el_20 > img {
+    position: absolute;
+    width: 94%;
+    top: -10%;
+    left: 3%;
+  }
+
+  .el_20color {
+    width: 59%;
+    height: 25%;
+    top: 24%;
+    left: 34%;
+  }
+
+  .el_20, .el_20color {
+    animation: a 8s linear infinite alternate;
+    animation-delay: 2s;
+  }
+
+
+  .el_21 {
+    position: absolute;
+    width: 13%;
+    top: 40%;
+    right: 20%;
+  }
+
+  .el_22 {
+    width: 12%;
+    top: 47%;
+    right: 9%;
+    border: 0.3vw solid black;
+  }
+
+  .el_23 {
+    position: absolute;
+    width: 14%;
+    height: 33%;
+    top: 40%;
+    right: 5%;
+    border: 0.25vw solid black;
+  }
+
+  .el_24 {
+    width: 3.5%;
+    height: 30%;
+    top: 24%;
+    right: 2%;
+    border: 0.3vw solid black;
+  }
+
+  .el_24color {
+    width: 3.5%;
+    height: 30%;
+    top: 24%;
+    right: 2%;
+  }
+
+  .el_25 {
+    position: absolute;
+    height: 5%;
+    width: 6%;
+    top: 59%;
+    left: 19%;
+    border: 0.25vw solid black;
+  }
+
+  .el_26 {
+    position: absolute;
+    width: 21%;
+    top: 59%;
+    left: 26%;
+  }
+
+  .el_27 {
+    width: 12%;
+    height:5%;
+    top: 93%;
+    left: 22%;
+    border: 0.3vw solid black;
+  }
+
+  .el_27color {
+    width: 12%;
+    height:5%;
+    top: 93%;
+    left: 22%;
+    border: 0.3vw solid black;
+  }
+
+  .el_28 {
+    width: 33%;
+    top: 35%;
+  }
+
+  .el_28color {
+    width: 33%;
+    top: 34%;
+  }
+
+  .el_29 {
+    position: absolute;
+    width: 12%;
+    top: 83%;
+    left: 12%;
+  }
+
+  .el_30 {
+    width: 48%;
+    height: 12%;
+    top: 60%;
+    left: 49%;
+    border: 0.3vw solid black;
+  }
+
+  .el_30color {
+    width: 48%;
+    height: 12%;
+    top: 60%;
+    left: 49%;
+  }
+
+  .el_31 {
+    width: 74%;
+    top: 73%;
+  }
+
+  .el_32 {
+    width: 24%;
+    height: 10.5%;
+    right: 28%;
+    border: 0.3vw solid black;
+  }
+
+  .el_32color {
+    width: 24%;
+    height: 10.5%;
+    right: 28%;
+  }
+
+  .el_33 {
+    width: 19%;
+    top: 76%;
+    border: 0.3vw solid black;
+  }
+
+  .el_34 {
+    position: absolute;
+    width: 19%;
+    height: 34%;
+    top: 64%;
+    border: 0.3vw solid black;
+  }
+
+  .el_35 {
+    width: 11.5%;
+    height: 5%;
+    top: 67%;
+    left: 36%;
+    border: 0.3vw solid black;
+  }
+
+  .el_35color {
+    width: 11.5%;
+    height: 5%;
+    top: 66%;
+    left: 36%;
+  }
+
+  .el_36 {
+    width: 74%;
+    top: 83%;
+  }
+
+  .el_36color {
+    width: 74%;
+    top: 82%;
+  }
+
+  .el_37 {
+    width: 14%;
+  }
+}
+
+@media all and (min-width: 300px) and (max-width: 767px){
+  body {
+    height:
+  }
+
+  .container {
+    padding-bottom: 391%;
+  }
+
+  .el_2, .el_4, .el_4color, .el_5, .el_6, .el_9, .el_11, .el_12color, .el_12, .el_13, .el_13color, .el_14, .el_15, .el_16, .el_16color, .el_17, .el_18, .el_19, .el_25, .el_26, .el_29, .el_30, .el_30color, .el_31, .el_33
+  {
+    display: none;
+  }
+
+  .el_1 {
+    position: absolute;
+    width: 96.5%;
+    height: 9%;
+    border: 0.5vw solid black;
+  }
+
+  .logo {
+    position: absolute;
+    width: 45.5%;
+  }
+
+  .el_3 {
+    width: 13%;
+    height: 3%;
+    top: 42%;
+    left: 2%;
+    border: 0.5vw solid black;
+  }
+
+  .el_7 {
+    width: 16%;
+    height: 4%;
+    left: 2%;
+    top: 21%;
+    border: 0.5vw solid black;
+  }
+
+  .el_7color {
+    width: 16%;
+    height: 4%;
+    left: 2%;
+    top: 20.5%;
+  }
+
+  .el_8 {
+    width: 35%;
+    height: 9%;
+    top: 46%;
+    right: 10%;
+    border: 0.5vw solid black;
+  }
+
+  .el_8 > p {
+    font-size: 10vw;
+
+  }
+
+  .el_8color {
+    width: 35%;
+    height: 9%;
+    top: 45%;
+    right: 10%;
+  }
+
+  .el_10 {
+    width: 96%;
+    height: 10%;
+    top: 10%;
+    border: 0.5vw solid black;
+  }
+
+  .el_10 > p {
+    top: 9%;
+    font-size: 34vw;
+  }
+
+  .el_12 {
+    position: absolute;
+    width: 17%;
+    top: 30%;
+  }
+
+  .el_17color {
+    width: 96%;
+    top: 68%;
+  }
+
+  .el_20 {
+    width: 92%;
+    height: 23%;
+    top: 21%;
+    left: 4%;
+    border: 0.5vw solid black;
+  }
+
+  .el_20color {
+    width: 92%;
+    height: 23%;
+    top: 22%;
+    left: 4%;
+  }
+
+  .el_21 {
+    width: 26%;
+    top: 21%;
+    right: 2%;
+  }
+
+  .el_22 {
+    width: 11%;
+    height: 3%;
+    top: 96%;
+    left: 2%;
+    border: 0.5vw solid black;
+  }
+
+  .el_23 {
+    width: 37%;
+    height: 13%;
+    top: 56%;
+    right: 9%;
+    border: 0.5vw solid black;
+  }
+
+  .el_24 {
+    width: 4.5%;
+    height: 30%;
+    border: 0.5vw solid black;
+  }
+
+  .el_24color {
+    width: 4.5%;
+    height: 30%;
+  }
+
+  .el_27 {
+    width: 20%;
+    height: 5%;
+    top: 61%;
+    border: 0.5vw solid black;
+  }
+
+  .el_27color {
+    width: 20%;
+    height: 5%;
+    top: 61%;
+  }
+
+  .el_28 {
+    width: 47%;
+    top: 51%;
+  }
+
+  .el_28color {
+    width: 47%;
+    top: 51%;
+  }
+
+  .el_32 {
+    width: 25%;
+    height: 6.5%;
+    top: 70%;
+    right: 2%;
+    border: 0.5vw solid black;
+  }
+
+  .el_32color {
+    width: 25%;
+    height: 6.5%;
+    top: 71%;
+    right: 2%;
+  }
+
+  .el_34 {
+    width: 51%;
+    height: 4%;
+    top: 46%;
+    border: 0.5vw solid black;
+  }
+
+  .el_35 {
+    width: 23%;
+    height: 5.9%;
+    top: 86.5%;
+    right: 38%;
+    border: 0.5vw solid black;
+  }
+
+  .el_35color {
+    width: 23%;
+    height: 5.9%;
+    top: 86%;
+    right: 38%;
+  }
+
+  .el_36 {
+    width: 96%;
+    top: 87%;
+  }
+
+  .el_36color {
+    width: 96%;
+    top: 86.5%;
+  }
+
+  .el_37 {
+    width: 18%;
+    top: 92%;
+  }
+
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape){
+  body {
+    height: 1449px;
+  }
+
+
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px){
+  body {
+    height: 1253px;
+  }
+}
