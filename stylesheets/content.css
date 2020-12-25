@@ -46,7 +46,6 @@ img {
   width: 45.5%;
   height: 12%;
   border: 0.25vw solid black;
-  animation: logo 2s steps(2) 2s infinite normal;
 }
 
 .logo {
@@ -68,12 +67,14 @@ img {
   top: 8%;
   left: 48.5%;
   border: 0.25vw solid black;
+  animation: e3 13s ease-out 2s infinite alternate;
 }
 
 .el_4 {
   position: absolute;
   width: 14%;
   left: 66.5%;
+  animation: e4 13s ease-out 2s infinite alternate;
 }
 
 .el_4color {
@@ -81,14 +82,14 @@ img {
   width: 14%;
   left: 66.5%;
   visibility: hidden;
-  animation: appear 12s ease-out 1 normal forwards;
+  animation: appear 12s ease-out 1 normal forwards, e4 13s ease-out 2s infinite alternate;
 }
 
 .el_5 {
   position: absolute;
   width: 32%;
   right: 2%;
-  animation: e5 1s linear 2s infinite;
+  animation: e5 6s linear 2s infinite;
   z-index: 100;
 }
 
@@ -99,6 +100,7 @@ img {
   top: 11%;
   right: 2%;
   border: 0.25vw solid black;
+  animation: e6 13s ease-out 2s infinite alternate;
 }
 
 .el_7 {
@@ -109,6 +111,7 @@ img {
   border-radius: 50%;
   border: 0.2vw solid black;
   z-index: 10;
+  animation: e7 13s ease-out 2s infinite alternate;
 }
 
 .el_7color {
@@ -120,7 +123,7 @@ img {
   background-color: #34A3B2;
   z-index: 1;
   visibility: hidden;
-  animation: appear 12s ease-out 1 normal forwards;
+  animation: appear 12s ease-out 1 normal forwards, e7 13s ease-out 2s infinite alternate;
 }
 
 .el_8 {
@@ -191,12 +194,14 @@ img {
   height: 9%;
   top: 28%;
   border: 0.25vw solid black;
+  animation: e11 13s ease-out 2s infinite alternate;
 }
 
 .el_12 {
   position: absolute;
   width: 17%;
   top: 30%;
+  animation: e12 3.5s cubic-bezier(0.5, 0.28, 0.57, 0.6) 2s infinite alternate;
 }
 
 .el_13 {
@@ -207,6 +212,7 @@ img {
   left: 14%;
   border-radius: 50%;
   border: 0.25vw solid black;
+  animation: e13 13s ease-out 2s infinite alternate;
 }
 
 .el_13color {
@@ -219,7 +225,7 @@ img {
   border: 0.25vw solid black;
   background-color: black;
   visibility: hidden;
-  animation: appear 12s ease-out 1 normal forwards;
+  animation: appear 12s ease-out 1 normal forwards, e13 13s ease-out 2s infinite alternate;
 }
 
 .el_14 {
@@ -227,6 +233,7 @@ img {
   width: 32%;
   top: 29%;
   left: 20%;
+  animation: e14 13s ease-out 2s infinite alternate;
 }
 
 .el_15 {
@@ -236,6 +243,7 @@ img {
   top: 29%;
   right: 2%;
   border: 0.25vw solid black;
+  animation: e15 13s ease-out 2s infinite alternate;
 }
 
 .el_16 {
@@ -243,6 +251,7 @@ img {
   width: 14%;
   top: 43%;
   z-index: 10;
+  animation: e16 13s ease-out 2s infinite alternate;
 }
 
 .el_16color {
@@ -251,7 +260,7 @@ img {
   top: 42%;
   z-index: 1;
   visibility: hidden;
-  animation: appear 12s ease-out 1 normal forwards;
+  animation: appear 12s ease-out 1 normal forwards, e16 13s ease-out 2s infinite alternate;
 }
 
 .el_17 {
@@ -278,6 +287,7 @@ img {
   top: 42%;
   left: 21%;
   border: 0.25vw solid black;
+  animation: e18 13s ease-out 2s infinite alternate;
 }
 
 .el_19 {
@@ -288,6 +298,7 @@ img {
   left: 27%;
   border-radius: 50%;
   border: 0.25vw solid black;
+  animation: e19 2s linear 2s infinite alternate;
 }
 
 .el_20 {
@@ -299,7 +310,7 @@ img {
   border-radius: 50%;
   border: 0.25vw solid black;
   z-index: 10;
-  animation: e20 10s cubic-bezier(0.2, 0.38, 1, 1) infinite alternate;
+  animation: e20 8s cubic-bezier(0.2, 0.38, 1, 1) infinite alternate;
   animation-delay: 2s;
 }
 
@@ -320,7 +331,7 @@ img {
   background-color: #F44719;
   z-index: 1;
   visibility: hidden;
-  animation: e20c 10s cubic-bezier(0.2, 0.38, 1, 1) 2s infinite alternate, appear 12s ease-out 1 normal forwards;
+  animation: e20c 8s cubic-bezier(0.2, 0.38, 1, 1) 2s infinite alternate, appear 12s ease-out 1 normal forwards;
 }
 
 .el_21 {
@@ -328,6 +339,7 @@ img {
   width: 13%;
   top: 40%;
   right: 20%;
+  animation: e21 13s ease-out 2s infinite alternate;
 }
 
 .el_22 {
@@ -338,6 +350,7 @@ img {
   right: 20%;
   border-radius: 50%;
   border: 0.25vw solid black;
+  animation: e22 13s ease-out 2s infinite alternate;
 }
 
 .el_23 {
@@ -357,6 +370,7 @@ img {
   top: 40%;
   right: 2%;
   border: 0.25vw solid black;
+  animation: e24 3.5s cubic-bezier(0.5, 0.28, 0.57, 0.6) 2s infinite alternate;
 }
 
 .el_24color {
@@ -368,7 +382,7 @@ img {
   background-color: black;
   visibility: hidden;
   border: 0.25vw solid black;
-  animation: appear 12s ease-out 1 normal forwards;
+  animation: appear 12s ease-out 1 normal forwards, e24 3.5s cubic-bezier(0.5, 0.28, 0.57, 0.6) 2s infinite alternate;
 }
 
 .el_25 {
@@ -378,6 +392,7 @@ img {
   top: 59%;
   left: 19%;
   border: 0.25vw solid black;
+  animation: e25 13s ease-out 2s infinite alternate;
 }
 
 .el_26 {
@@ -395,6 +410,7 @@ img {
   top: 71%;
   border-radius: 50%;
   border: 0.25vw solid black;
+  animation: e27 13s ease-out 2s infinite alternate;
 }
 
 .el_27color {
@@ -406,7 +422,7 @@ img {
   background-color: black;
   border: 0.25vw solid black;
   visibility: hidden;
-  animation: appear 12s ease-out 1 normal forwards;
+  animation: appear 12s ease-out 1 normal forwards, e27 13s ease-out 2s infinite alternate;
 }
 
 .el_28 {
@@ -438,6 +454,7 @@ img {
   width: 12%;
   top: 83%;
   left: 12%;
+  animation: e29 13s ease-out 2s infinite alternate;
 }
 
 .el_30 {
@@ -447,6 +464,7 @@ img {
   top: 74%;
   left: 26%;
   border: 0.25vw solid black;
+  animation: e30 3.5s cubic-bezier(0.5, 0.28, 0.57, 0.6) 2s infinite alternate;
 }
 
 .el_30color {
@@ -458,7 +476,7 @@ img {
   border: 0.25vw solid black;
   background-color: black;
   visibility: hidden;
-  animation: appear 12s ease-out 1 normal forwards;
+  animation: appear 12s ease-out 1 normal forwards, e30 3.5s cubic-bezier(0.5, 0.28, 0.57, 0.6) 2s infinite alternate;
 }
 
 .el_31 {
@@ -466,6 +484,7 @@ img {
   width: 44%;
   top: 74%;
   right: 2%;
+  animation: e34 3s linear 2s infinite;
 }
 
 .el_32 {
@@ -477,6 +496,7 @@ img {
   border-radius: 50%;
   border: 0.25vw solid black;
   z-index: 10;
+  animation: e32 13s ease-out 2s infinite alternate;
 }
 
 .el_32color {
@@ -489,7 +509,7 @@ img {
   background-color: #FF9045;
   z-index: 1;
   visibility: hidden;
-  animation: appear 12s ease-out 1 normal forwards;
+  animation: appear 12s ease-out 1 normal forwards, e32 13s ease-out 2s infinite alternate;
 }
 
 .el_33 {
@@ -499,6 +519,7 @@ img {
   top: 77%;
   right: 2%;
   border: 0.25vw solid black;
+  animation: e33 13s ease-out 2s infinite alternate;
 }
 
 .el_34 {
@@ -507,6 +528,7 @@ img {
   height: 7%;
   top: 92%;
   border: 0.25vw solid black;
+  animation: e34 5s linear 2s infinite;
 }
 
 .el_35 {
@@ -518,6 +540,7 @@ img {
   border-radius: 50%;
   border: 0.25vw solid black;
   z-index: 10;
+  animation: e35 13s ease-out 2s infinite alternate;
 }
 
 .el_35color {
@@ -530,7 +553,7 @@ img {
   background-color: #FF9045;
   z-index: 1;
   visibility: hidden;
-  animation: appear 12s ease-out 1 normal forwards;
+  animation: appear 12s ease-out 1 normal forwards, e35 13s ease-out 2s infinite alternate;
 }
 
 .el_36 {
@@ -539,6 +562,7 @@ img {
   top: 83%;
   right: 2%;
   z-index: 10;
+  animation: e36 3.5s cubic-bezier(0.5, 0.28, 0.57, 0.6) 2s infinite alternate;
 }
 
 #find {
@@ -555,7 +579,7 @@ width: 92%;
   right: 2%;
   z-index: 1;
   visibility: hidden;
-  animation: appear 12s ease-out 1 normal forwards;
+  animation: appear 12s ease-out 1 normal forwards, e36c 3.5s cubic-bezier(0.5, 0.28, 0.57, 0.6) 2s infinite alternate;
 }
 
 .el_37 {
@@ -563,14 +587,15 @@ width: 92%;
   width: 9%;
   top: 90%;
   right: 2%;
+  animation: e37 13s ease-out 2s infinite alternate;
 }
 
 @keyframes e20 {
   0% {transform: rotate(0deg);}
   15% {top: 41%; left: 35%;}
   25% {top: 10%; left: -15%;}
-  50% {top: -5%; left: 70%;}
-  75% {top: 10%; left: -10%;}
+  50% {top: 42%; left: 70%;}
+  75% {top: 44%; left: -10%;}
   100% {transform: rotate(360deg); top: 70%; left: 30%;}
 }
 
@@ -578,8 +603,8 @@ width: 92%;
   0% {transform: rotate(0deg);}
   15% {top: 41%; left: 35%;}
   25% {top: 11%; left: -14%;}
-  50% {top: -5%; left: 71%;}
-  75% {top: 10%; left: -10%;}
+  50% {top: 43%; left: 71%;}
+  75% {top: 45%; left: -10%;}
   100% {transform: rotate(360deg); top: 70%; left: 30%;}
 }
 
@@ -628,11 +653,6 @@ width: 92%;
   100% {visibility: visible;}
 }
 
-@keyframes logo {
-  0% {transform: scale(1);}
-  50% {transform: scale(0.8);}
-  100% {transform: scale(1);}
-}
 
 @keyframes sale {
   0% {transform: rotate(0deg);}
@@ -643,7 +663,7 @@ width: 92%;
 @keyframes e23 {
   0% {transform: rotate(0deg);}
   50% {transform: rotate(70deg);}
-  100% {transform: rotate(-70deg) translate(-90%, -90%);}
+  100% {transform: rotate(-136deg) translate(-90%, -90%);}
 }
 
 @keyframes e9 {
@@ -653,16 +673,162 @@ width: 92%;
 }
 
 @keyframes e2 {
-        0%  {transform: rotate(0deg);}
-        100% {transform: rotate(360deg);}
+  0%  {transform: rotate(0deg);}
+  100% {transform: rotate(360deg);}
 }
 
 @keyframes e28 {
   0% {transform: none;}
+  50% {transform: translate(-50%, -53%) scale(1.2) rotate(-45deg);}
   100% {transform: translate(50%, -53%) scale(1.2) rotate(45deg);}
 }
 
 @keyframes e28c {
   0% {transform: none;}
+  50% {transform: translate(-50%, -53%) scale(1.2) rotate(-45deg);}
   100% {transform: translate(50%, -53%) scale(1.2) rotate(45deg);}
+}
+
+@keyframes e36 {
+  0% {transform: none;}
+  50% {transform: translate(-36%, -53%) scale(1.2) rotate(-75deg);}
+  100% {transform: translate(5%, 0%) scale(1) rotate(4deg);}
+}
+
+@keyframes e36c {
+  0% {transform: none;}
+  50% {transform: translate(-36%, -53%) scale(1.2) rotate(-75deg);}
+  100% {transform: translate(5%, 0%) scale(1) rotate(4deg);}
+}
+
+@keyframes e24 {
+  0%  {transform: rotate(0deg);}
+  100% {transform: rotate(360deg) translate(-3448%, 0);}
+}
+
+@keyframes e30 {
+  0%  {transform: rotate(0deg);}
+  100% {transform: rotate(455deg) translate(224%, 0);}
+}
+
+@keyframes e14 {
+  0%  {transform: rotate(0deg);}
+  100% {transform: rotate(-1475deg) translate(118%, 0);}
+}
+
+@keyframes e15 {
+  0%  {transform: rotate(0deg);}
+  100% {transform: rotate(1475deg) translate(80%, 0);}
+}
+
+@keyframes e34 {
+  0%  {transform: rotate(0deg);}
+  100% {transform: rotate(360deg);}
+}
+
+@keyframes e31 {
+  0%  {transform: rotate(0deg);}
+  100% {transform: rotate(360deg);}
+}
+
+@keyframes e21 {
+  0% {transform: scale(0.8) rotate(0deg);}
+  50% {transform: scale(1.2) rotate(168deg);}
+  100% {transform: scale(1) rotate(373deg);}
+}
+
+@keyframes e16 {
+  0%  {transform: rotate(0deg);}
+  100% {transform: rotate(1337deg) translate(296%, 0);}
+}
+
+@keyframes e32 {
+  0%  {transform: rotate(0deg);}
+  100% {transform: rotate(1337deg) translate(296%, 0);}
+}
+
+@keyframes e13 {
+  0%  {transform: rotate(0deg);}
+  100% {transform: rotate(-1359deg) translate(256%, 0);}
+}
+
+@keyframes e19 {
+  0% {transform: none;}
+  50% {transform: translate(267%, -53%) scale(1.2) rotate(-75deg);}
+  100% {transform: translate(-173%, 177%) scale(1) rotate(4deg);}
+}
+
+@keyframes e35 {
+  0%  {transform: rotate(0deg);}
+  100% {transform: rotate(353deg) translate(378%, 0);}
+}
+
+@keyframes e12 {
+  0%  {transform: rotate(0deg);}
+  100% {transform: rotate(-497deg) translate(224%, 0);}
+}
+
+@keyframes e3 {
+  0%  {transform: rotate(0deg);}
+  100% {transform: rotate(-497deg) translate(224%, 0);}
+}
+
+@keyframes e4 {
+  0%  {transform: rotate(0deg);}
+  100% {transform: rotate(-497deg) translate(224%, 0);}
+}
+
+@keyframes e6 {
+  0%  {transform: rotate(0deg);}
+  100% {transform: rotate(1475deg) translate(80%, 0);}
+}
+
+@keyframes e7 {
+  0%  {transform: rotate(0deg);}
+  100% {transform: rotate(1475deg) translate(80%, 0);}
+}
+
+@keyframes e11 {
+  0%  {transform: rotate(0deg);}
+  100% {transform: rotate(-1359deg) translate(256%, 0);}
+}
+
+@keyframes e18 {
+  0%  {transform: rotate(0deg);}
+  100% {transform: rotate(-1359deg) translate(256%, 0);}
+}
+
+@keyframes e21 {
+  0%  {transform: rotate(0deg);}
+  100% {transform: rotate(-1359deg) translate(256%, 0);}
+}
+
+@keyframes e25 {
+  0%  {transform: rotate(0deg);}
+  100% {transform: rotate(-1359deg) translate(256%, 0);}
+}
+
+@keyframes e27 {
+  0%  {transform: rotate(0deg);}
+  100% {transform: rotate(-1359deg) translate(256%, 0);}
+}
+
+@keyframes e37 {
+  0%  {transform: rotate(0deg);}
+  100% {transform: rotate(1337deg) translate(296%, 0);}
+}
+
+@keyframes e22 {
+  0%  {transform: rotate(0deg);}
+  100% {transform: rotate(1337deg) translate(296%, 0);}
+}
+
+@keyframes e29 {
+  0%  {transform: rotate(0deg);}
+  100% {transform: rotate(1337deg) translate(296%, 0);}
+}
+
+@keyframes e33 {
+  0%  {transform: rotate(0deg);}
+  100% {transform: rotate(1337deg) translate(296%, 0);}
 }
