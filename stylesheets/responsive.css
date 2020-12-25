@@ -725,6 +725,11 @@
   .el_37 {
     width: 14%;
   }
+
+  @keyframes e5 {
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(-360deg);}
+  }
 }
 
 @media all and (min-width: 300px) and (max-width: 767px){
