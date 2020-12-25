@@ -46,6 +46,11 @@ img {
   width: 45.5%;
   height: 12%;
   border: 0.25vw solid black;
+  animation: sale 0.7s cubic-bezier(0.71, 0.14, 0.35, 0.88) 3s infinite alternate paused;
+}
+
+.el_1:hover {
+  animation-play-state: running;
 }
 
 .logo {
@@ -57,7 +62,7 @@ img {
   position: absolute;
   width: 17%;
   left: 48.5%;
-  animation: e2 10s linear 2s infinite;
+  animation: e2 10s linear 3s infinite;
 }
 
 .el_3 {
@@ -67,14 +72,14 @@ img {
   top: 8%;
   left: 48.5%;
   border: 0.25vw solid black;
-  animation: e3 13s ease-out 2s infinite alternate;
+  animation: e3 40s ease-out 3s infinite alternate;
 }
 
 .el_4 {
   position: absolute;
   width: 14%;
   left: 66.5%;
-  animation: e4 13s ease-out 2s infinite alternate;
+  animation: e4 40s ease-out 3s infinite alternate;
 }
 
 .el_4color {
@@ -82,14 +87,14 @@ img {
   width: 14%;
   left: 66.5%;
   visibility: hidden;
-  animation: appear 12s ease-out 1 normal forwards, e4 13s ease-out 2s infinite alternate;
+  animation: appear 12s ease-out 1 normal forwards, e4 13s ease-out 3s infinite alternate;
 }
 
 .el_5 {
   position: absolute;
   width: 32%;
   right: 2%;
-  animation: e5 6s linear 2s infinite;
+  animation: e5 6s linear 3s infinite;
   z-index: 100;
 }
 
@@ -100,7 +105,7 @@ img {
   top: 11%;
   right: 2%;
   border: 0.25vw solid black;
-  animation: e6 13s ease-out 2s infinite alternate;
+  animation: e6 40s ease-out 3s infinite alternate;
 }
 
 .el_7 {
@@ -111,7 +116,7 @@ img {
   border-radius: 50%;
   border: 0.2vw solid black;
   z-index: 10;
-  animation: e7 13s ease-out 2s infinite alternate;
+  animation: e7 13s ease-out 3s infinite alternate;
 }
 
 .el_7color {
@@ -123,7 +128,7 @@ img {
   background-color: #34A3B2;
   z-index: 1;
   visibility: hidden;
-  animation: appear 12s ease-out 1 normal forwards, e7 13s ease-out 2s infinite alternate;
+  animation: appear 12s ease-out 1 normal forwards, e7 13s ease-out 3s infinite alternate;
 }
 
 .el_8 {
@@ -134,7 +139,7 @@ img {
   border-radius: 50%;
   border: 0.25vw solid black;
   z-index: 10;
-  animation: e8 10s linear 2s infinite alternate;
+  animation: e8 20s linear 3s infinite alternate;
 }
 
 .el_8 > p {
@@ -155,7 +160,7 @@ img {
   background-color: #F44719;
   z-index: 1;
   visibility: hidden;
-  animation: appear 12s ease-out 1 normal forwards, e8c 10s linear 2s infinite alternate;
+  animation: appear 12s ease-out 1 normal forwards, e8c 20s linear 3s infinite alternate;
 }
 
 .el_9 {
@@ -165,7 +170,7 @@ img {
   top: 14%;
   left: 24%;
   border: 0.25vw solid black;
-  animation: e9 3.5s cubic-bezier(0.5, 0.28, 0.57, 0.6) 2s infinite alternate;
+  animation: e9 3.5s cubic-bezier(0.5, 0.28, 0.57, 0.6) 3s infinite alternate;
 }
 
 .el_10 {
@@ -175,7 +180,7 @@ img {
   top: 14%;
   right: 2%;
   border: 0.25vw solid black;
-  animation: sale 0.7s cubic-bezier(0.71, 0.14, 0.35, 0.88) 2s infinite alternate;
+  animation: sale 0.7s cubic-bezier(0.71, 0.14, 0.35, 0.88) 3s infinite alternate;
 }
 
 .el_10 > p {
@@ -186,6 +191,11 @@ img {
   left: 2%;
   font-size: 20vw;
   font-weight: bold;
+  transition: all .2s ease;
+}
+
+.el_10 > p:hover {
+  color: #FF9045;
 }
 
 .el_11 {
@@ -194,14 +204,14 @@ img {
   height: 9%;
   top: 28%;
   border: 0.25vw solid black;
-  animation: e11 13s ease-out 2s infinite alternate;
+  animation: e11 13s ease-out 3s infinite alternate;
 }
 
 .el_12 {
   position: absolute;
   width: 17%;
   top: 30%;
-  animation: e12 3.5s cubic-bezier(0.5, 0.28, 0.57, 0.6) 2s infinite alternate;
+  animation: e12 10s cubic-bezier(0.5, 0.28, 0.57, 0.6) 3s infinite alternate;
 }
 
 .el_13 {
@@ -212,7 +222,7 @@ img {
   left: 14%;
   border-radius: 50%;
   border: 0.25vw solid black;
-  animation: e13 13s ease-out 2s infinite alternate;
+  animation: e13 13s ease-out 3s infinite alternate;
 }
 
 .el_13color {
@@ -225,7 +235,7 @@ img {
   border: 0.25vw solid black;
   background-color: black;
   visibility: hidden;
-  animation: appear 12s ease-out 1 normal forwards, e13 13s ease-out 2s infinite alternate;
+  animation: appear 12s ease-out 1 normal forwards, e13 13s ease-out 3s infinite alternate;
 }
 
 .el_14 {
@@ -233,7 +243,7 @@ img {
   width: 32%;
   top: 29%;
   left: 20%;
-  animation: e14 13s ease-out 2s infinite alternate;
+  animation: e14 40s ease-out 3s infinite alternate;
 }
 
 .el_15 {
@@ -243,7 +253,7 @@ img {
   top: 29%;
   right: 2%;
   border: 0.25vw solid black;
-  animation: e15 13s ease-out 2s infinite alternate;
+  animation: e15 40s ease-out 3s infinite alternate;
 }
 
 .el_16 {
@@ -251,7 +261,7 @@ img {
   width: 14%;
   top: 43%;
   z-index: 10;
-  animation: e16 13s ease-out 2s infinite alternate;
+  animation: e16 13s ease-out 3s infinite alternate;
 }
 
 .el_16color {
@@ -260,7 +270,7 @@ img {
   top: 42%;
   z-index: 1;
   visibility: hidden;
-  animation: appear 12s ease-out 1 normal forwards, e16 13s ease-out 2s infinite alternate;
+  animation: appear 12s ease-out 1 normal forwards, e16 13s ease-out 3s infinite alternate;
 }
 
 .el_17 {
@@ -268,7 +278,7 @@ img {
   width: 32%;
   top: 42%;
   z-index: 10;
-  animation: e17 10s cubic-bezier(0.2, 0.38, 1, 1) 2s infinite alternate;
+  animation: e17 10s cubic-bezier(0.2, 0.38, 1, 1) 3s infinite alternate;
 }
 
 .el_17color {
@@ -277,7 +287,7 @@ img {
   top: 42%;
   z-index: 1;
   visibility: hidden;
-  animation: appear 12s ease-out 1 normal forwards, e17 10s cubic-bezier(0.2, 0.38, 1, 1) 2s infinite alternate;
+  animation: appear 12s ease-out 1 normal forwards, e17 10s cubic-bezier(0.2, 0.38, 1, 1) 3s infinite alternate;
 }
 
 .el_18 {
@@ -287,7 +297,7 @@ img {
   top: 42%;
   left: 21%;
   border: 0.25vw solid black;
-  animation: e18 13s ease-out 2s infinite alternate;
+  animation: e18 50s ease-out 3s infinite alternate;
 }
 
 .el_19 {
@@ -298,7 +308,7 @@ img {
   left: 27%;
   border-radius: 50%;
   border: 0.25vw solid black;
-  animation: e19 2s linear 2s infinite alternate;
+  animation: e19 2s linear 3s infinite alternate;
 }
 
 .el_20 {
@@ -310,8 +320,8 @@ img {
   border-radius: 50%;
   border: 0.25vw solid black;
   z-index: 10;
-  animation: e20 8s cubic-bezier(0.2, 0.38, 1, 1) infinite alternate;
-  animation-delay: 2s;
+  animation: e20 16s cubic-bezier(0.2, 0.38, 1, 1) infinite alternate;
+  animation-delay: 3s;
 }
 
 .el_20 > img {
@@ -331,7 +341,7 @@ img {
   background-color: #F44719;
   z-index: 1;
   visibility: hidden;
-  animation: e20c 8s cubic-bezier(0.2, 0.38, 1, 1) 2s infinite alternate, appear 12s ease-out 1 normal forwards;
+  animation: e20c 16s cubic-bezier(0.2, 0.38, 1, 1) 3s infinite alternate running, appear 12s ease-out 1 normal forwards;
 }
 
 .el_21 {
@@ -339,7 +349,7 @@ img {
   width: 13%;
   top: 40%;
   right: 20%;
-  animation: e21 13s ease-out 2s infinite alternate;
+  animation: e21 13s ease-out 3s infinite alternate;
 }
 
 .el_22 {
@@ -350,7 +360,7 @@ img {
   right: 20%;
   border-radius: 50%;
   border: 0.25vw solid black;
-  animation: e22 13s ease-out 2s infinite alternate;
+  animation: e22 13s ease-out 3s infinite alternate;
 }
 
 .el_23 {
@@ -360,7 +370,7 @@ img {
   top: 40%;
   right: 5%;
   border: 0.25vw solid black;
-  animation: e23 3.5s cubic-bezier(0.5, 0.28, 0.57, 0.6) 2s infinite alternate;
+  animation: e23 20s cubic-bezier(0.5, 0.28, 0.57, 0.6) 3s infinite alternate;
 }
 
 .el_24 {
@@ -370,7 +380,7 @@ img {
   top: 40%;
   right: 2%;
   border: 0.25vw solid black;
-  animation: e24 3.5s cubic-bezier(0.5, 0.28, 0.57, 0.6) 2s infinite alternate;
+  animation: e24 3.5s cubic-bezier(0.5, 0.28, 0.57, 0.6) 3s infinite alternate;
 }
 
 .el_24color {
@@ -382,7 +392,7 @@ img {
   background-color: black;
   visibility: hidden;
   border: 0.25vw solid black;
-  animation: appear 12s ease-out 1 normal forwards, e24 3.5s cubic-bezier(0.5, 0.28, 0.57, 0.6) 2s infinite alternate;
+  animation: appear 12s ease-out 1 normal forwards, e24 3.5s cubic-bezier(0.5, 0.28, 0.57, 0.6) 3s infinite alternate;
 }
 
 .el_25 {
@@ -392,7 +402,7 @@ img {
   top: 59%;
   left: 19%;
   border: 0.25vw solid black;
-  animation: e25 13s ease-out 2s infinite alternate;
+  animation: e25 13s ease-out 3s infinite alternate;
 }
 
 .el_26 {
@@ -400,7 +410,7 @@ img {
   width: 21%;
   top: 59%;
   left: 26%;
-  animation: e26 10s cubic-bezier(0.2, 0.38, 1, 1) 2s infinite alternate;
+  animation: e26 10s cubic-bezier(0.2, 0.38, 1, 1) 3s infinite alternate;
 }
 
 .el_27 {
@@ -410,7 +420,7 @@ img {
   top: 71%;
   border-radius: 50%;
   border: 0.25vw solid black;
-  animation: e27 13s ease-out 2s infinite alternate;
+  animation: e27 13s ease-out 3s infinite alternate;
 }
 
 .el_27color {
@@ -422,7 +432,7 @@ img {
   background-color: black;
   border: 0.25vw solid black;
   visibility: hidden;
-  animation: appear 12s ease-out 1 normal forwards, e27 13s ease-out 2s infinite alternate;
+  animation: appear 12s ease-out 1 normal forwards, e27 13s ease-out 3s infinite alternate;
 }
 
 .el_28 {
@@ -430,7 +440,7 @@ img {
   width: 22%;
   top: 59%;
   z-index: 10;
-  animation: e28 3.5s cubic-bezier(0.5, 0.28, 0.57, 0.6) 2s infinite alternate;
+  animation: e28 3.5s cubic-bezier(0.5, 0.28, 0.57, 0.6) 3s infinite alternate;
 }
 
 #sales {
@@ -446,7 +456,7 @@ img {
   left: 3%;
   z-index: 1;
   visibility: hidden;
-  animation: appear 12s ease-out 1 normal forwards, e28c 3.5s cubic-bezier(0.5, 0.28, 0.57, 0.6) 2s infinite alternate;
+  animation: appear 12s ease-out 1 normal forwards, e28c 3.5s cubic-bezier(0.5, 0.28, 0.57, 0.6) 3s infinite alternate;
 }
 
 .el_29 {
@@ -454,7 +464,7 @@ img {
   width: 12%;
   top: 83%;
   left: 12%;
-  animation: e29 13s ease-out 2s infinite alternate;
+  animation: e29 13s ease-out 3s infinite alternate;
 }
 
 .el_30 {
@@ -464,7 +474,7 @@ img {
   top: 74%;
   left: 26%;
   border: 0.25vw solid black;
-  animation: e30 3.5s cubic-bezier(0.5, 0.28, 0.57, 0.6) 2s infinite alternate;
+  animation: e30 30s cubic-bezier(0.5, 0.28, 0.57, 0.6) 3s infinite alternate;
 }
 
 .el_30color {
@@ -476,7 +486,7 @@ img {
   border: 0.25vw solid black;
   background-color: black;
   visibility: hidden;
-  animation: appear 12s ease-out 1 normal forwards, e30 3.5s cubic-bezier(0.5, 0.28, 0.57, 0.6) 2s infinite alternate;
+  animation: appear 12s ease-out 1 normal forwards, e30 30s cubic-bezier(0.5, 0.28, 0.57, 0.6) 3s infinite alternate;
 }
 
 .el_31 {
@@ -484,7 +494,7 @@ img {
   width: 44%;
   top: 74%;
   right: 2%;
-  animation: e34 3s linear 2s infinite;
+  animation: e34 10s linear 3s infinite;
 }
 
 .el_32 {
@@ -496,7 +506,7 @@ img {
   border-radius: 50%;
   border: 0.25vw solid black;
   z-index: 10;
-  animation: e32 13s ease-out 2s infinite alternate;
+  animation: e32 30s ease-out 3s infinite alternate;
 }
 
 .el_32color {
@@ -509,7 +519,7 @@ img {
   background-color: #FF9045;
   z-index: 1;
   visibility: hidden;
-  animation: appear 12s ease-out 1 normal forwards, e32 13s ease-out 2s infinite alternate;
+  animation: appear 12s ease-out 1 normal forwards, e32 30s ease-out 3s infinite alternate;
 }
 
 .el_33 {
@@ -519,7 +529,7 @@ img {
   top: 77%;
   right: 2%;
   border: 0.25vw solid black;
-  animation: e33 13s ease-out 2s infinite alternate;
+  animation: e33 20s ease-out 3s infinite alternate;
 }
 
 .el_34 {
@@ -528,7 +538,7 @@ img {
   height: 7%;
   top: 92%;
   border: 0.25vw solid black;
-  animation: e34 5s linear 2s infinite;
+  animation: e34 15s linear 3s infinite;
 }
 
 .el_35 {
@@ -540,7 +550,7 @@ img {
   border-radius: 50%;
   border: 0.25vw solid black;
   z-index: 10;
-  animation: e35 13s ease-out 2s infinite alternate;
+  animation: e35 13s ease-out 3s infinite alternate;
 }
 
 .el_35color {
@@ -553,7 +563,7 @@ img {
   background-color: #FF9045;
   z-index: 1;
   visibility: hidden;
-  animation: appear 12s ease-out 1 normal forwards, e35 13s ease-out 2s infinite alternate;
+  animation: appear 12s ease-out 1 normal forwards, e35 13s ease-out 3s infinite alternate;
 }
 
 .el_36 {
@@ -562,7 +572,7 @@ img {
   top: 83%;
   right: 2%;
   z-index: 10;
-  animation: e36 3.5s cubic-bezier(0.5, 0.28, 0.57, 0.6) 2s infinite alternate;
+  animation: e36 3.5s cubic-bezier(0.5, 0.28, 0.57, 0.6) 3s infinite alternate;
 }
 
 #find {
@@ -579,7 +589,7 @@ width: 92%;
   right: 2%;
   z-index: 1;
   visibility: hidden;
-  animation: appear 12s ease-out 1 normal forwards, e36c 3.5s cubic-bezier(0.5, 0.28, 0.57, 0.6) 2s infinite alternate;
+  animation: appear 12s ease-out 1 normal forwards, e36c 3.5s cubic-bezier(0.5, 0.28, 0.57, 0.6) 3s infinite alternate;
 }
 
 .el_37 {
@@ -587,7 +597,7 @@ width: 92%;
   width: 9%;
   top: 90%;
   right: 2%;
-  animation: e37 13s ease-out 2s infinite alternate;
+  animation: e37 13s ease-out 3s infinite alternate;
 }
 
 @keyframes e20 {
